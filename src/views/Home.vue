@@ -24,6 +24,9 @@
     <li>
       <router-link to="/app-props"> Props </router-link>
     </li>
+    <li>
+      <router-link to="/app-provide"> Provide </router-link>
+    </li>
   </ul>
 </template>
 

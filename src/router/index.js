@@ -7,6 +7,7 @@ import VariablesReactivas from "@/views/VariablesReactivas.vue";
 import AppWatcher from "@/views/AppWatcher.vue";
 import AppComputadas from "@/views/AppComputadas.vue";
 import AppProps from "@/views/AppProps.vue";
+import AppProvide from "@/views/AppProvide.vue";
 
 const routes = [
     {
@@ -48,6 +49,11 @@ const routes = [
         path: "/app-props",
         name: "AppProps",
         component: AppProps,
+    },
+    {
+        path: "/app-provide",
+        name: "AppProvide",
+        component: AppProvide,
     },
 ];
 
